@@ -1,0 +1,84 @@
+body {
+  background-color: #0d0e0f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro {
+  width: 100%;
+  max-width: 280px;
+  margin: 30px auto 0;
+  padding: 20px;
+  background: rgb(3, 163, 238);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+table {
+  width: 50%;
+  height: 50px;
+  border: 1px rgb(14, 13, 13) solid;
+  border-spacing: 0;
+}
+th {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  border: 1px rgb(12, 12, 12) solid;
+  background-color: #faf8fc;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  border: 1px rgb(19, 18, 18) solid;
+  background-color: #faf8fc;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0;
+  background: rgb(22, 97, 22);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Excluir {
+  background-color: red;
+}
+
+.TituloTabela {
+  color: #fff;
+  font-size: 25px
+}
+
+.border{
+  border-radius: 20px;
+  height: 30px;
+}
